@@ -1,4 +1,4 @@
+pycaret==3.0.4
 numpy==1.23.5
 pandas==1.5.3
 scikit-learn
-pycaret==3.0.4
