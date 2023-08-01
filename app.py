@@ -1,4 +1,4 @@
-import streamlit as st
+_import streamlit as st
 import pandas as pd
 from pycaret.classification import load_model, predict_model, setup, get_config
 from sklearn.preprocessing import LabelEncoder
@@ -111,7 +111,7 @@ def main():
                                         len_posts, post_word_count, num_emojis, topic_probability, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10)
 
 
-        model = load_model('model')
+        model = load_model('best_model')
 
 
         # Apply label encoding to the categorical columns
