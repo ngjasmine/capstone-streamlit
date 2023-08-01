@@ -1,4 +1,4 @@
-_import streamlit as st
+import streamlit as st
 import pandas as pd
 from pycaret.classification import load_model, predict_model, setup, get_config
 from sklearn.preprocessing import LabelEncoder
