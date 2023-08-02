@@ -120,6 +120,8 @@ def main():
         # Make predictions using the loaded model and the transformed input data
         predictions = model.predict(input_data_encoded)
 
+        st.write(print(pandas.__version__))
+
         if predictions[0] == "LOW":
             st.write("Predictions:", "Recommended Price Range: Low (<=$700)")
         elif predictions[0] == "MEDIUM":
