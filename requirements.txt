@@ -2,3 +2,4 @@ numpy<1.24
 pandas<2.0.0
 scikit-learn
 pycaret==2.3.5
+streamlit==1.25.0
